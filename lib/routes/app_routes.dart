@@ -22,6 +22,11 @@ class AppRoutes {
         nombre: 'Lista de Opciones',
         screen: const Listview1Screen(),
         icon: Icons.list),
+    MenuOptions(
+        route: 'card',
+        nombre: 'Tarjetas',
+        screen: const CardScreen(),
+        icon: Icons.credit_card_outlined),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
