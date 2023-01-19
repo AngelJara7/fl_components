@@ -29,7 +29,7 @@ class CustomCardType2 extends StatelessWidget {
             fadeInDuration: const Duration(milliseconds: 300),
             ),
 
-            if(name == null)
+            if(name != null)
               Container(
                 alignment: AlignmentDirectional.centerEnd,
                 padding: const EdgeInsets.only(right: 20, top: 10, bottom: 10),
