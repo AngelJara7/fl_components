@@ -10,7 +10,7 @@ class AppTheme {
         elevation: 0
       ),
       textButtonTheme: TextButtonThemeData(
-        style: TextButton.styleFrom(primary: primary)
+        style: TextButton.styleFrom(foregroundColor: primary)
       )
   );
 }
