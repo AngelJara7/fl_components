@@ -34,7 +34,7 @@ class CustomCardType2 extends StatelessWidget {
                 alignment: AlignmentDirectional.centerEnd,
                 padding: const EdgeInsets.only(right: 20, top: 10, bottom: 10),
                 child: Text(name!)
-                )
+              )
         ],
       ),
     );
