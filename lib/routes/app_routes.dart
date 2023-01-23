@@ -11,13 +11,13 @@ class AppRoutes {
         route: 'listview1',
         nombre: 'Lista de Opciones',
         screen: const Listview1Screen(),
-        icon: Icons.list
+        icon: Icons.list_alt_outlined
     ),
     MenuOptions(
         route: 'alert',
         nombre: 'Alertas',
         screen: const AlertScreen(),
-        icon: Icons.add_alert
+        icon: Icons.add_alert_outlined
     ),
     MenuOptions(
         route: 'card',
@@ -33,9 +33,15 @@ class AppRoutes {
     ),
     MenuOptions(
         route: 'animated',
-        nombre: 'animated Contanier',
+        nombre: 'Animated Contanier',
         screen: const AnimatedScreen(),
         icon: Icons.play_circle_outline_rounded
+    ),
+    MenuOptions(
+        route: 'inputs',
+        nombre: 'Inputs Texts',
+        screen: const InputsScreen(),
+        icon: Icons.input_rounded
     ),
   ];
 
