@@ -50,7 +50,6 @@ class InputsScreen extends StatelessWidget {
                       DropdownMenuItem(value: "Jr. Developer", child: Text("Jr. Developer"),),
                     ], 
                     onChanged: (value) {
-                      print(value);
                       formValues["role"] = value ?? "Admin";
                     },
                   ),
@@ -64,7 +63,6 @@ class InputsScreen extends StatelessWidget {
                     ),
                     onPressed: () {
                       FocusScope.of(context).requestFocus(FocusNode());
-                      print(formValues);
                     }, 
                   ),
                 ],
